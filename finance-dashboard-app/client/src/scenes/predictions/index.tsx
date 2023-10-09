@@ -1,6 +1,6 @@
-import DashboardBox from "@/components/DashboardBox";
-import FlexBetween from "@/components/FlexBetween";
-import { useGetKpisQuery } from "@/state/api";
+import DashboardBox from "./components/DashboardBox";
+import FlexBetween from "./components/FlexBetween";
+import { useGetKpisQuery } from "./state/api";
 import { Box, Button, Typography, useTheme } from "@mui/material";
 import { useMemo, useState } from "react";
 import {
@@ -14,7 +14,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import regression, { DataPoint } from "regression";
+import regression , {DataPoint} from "regression";
 
 const Predictions = () => {
   const { palette } = useTheme();
