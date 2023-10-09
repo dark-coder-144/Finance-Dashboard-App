@@ -24,6 +24,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "client/src/components", "client/src/scenes", "client/src/state", "client/src/App.tsx", "client/src/expanded-theme.ts", "client/src/main.tsx", "client/src/theme.ts", "client/src/vite-env.d.ts"],
+  "include": ["src", "src/components", "src/scenes", "src/state", "src/App.tsx", "src/expanded-theme.ts", "src/main.tsx", "src/theme.ts", "src/vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
